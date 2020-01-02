@@ -1,7 +1,7 @@
 import React from 'react';
 import '../custom.scss';
 
-import { Header, CallToAction, ListBlock, ContactBlock, PageTemplate } from '../Components';
+import { Header, CallToAction, PageTemplate } from '../Components';
 
 
 export default function ContactUs() {

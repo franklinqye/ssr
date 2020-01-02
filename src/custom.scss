@@ -1,8 +1,6 @@
 // Override default variables before the import
 $body-color: #000;
 
-
-
 $theme-colors: (
   "primary": #8eb6dc,
   "secondary": #e9e9ed,
@@ -13,17 +11,18 @@ $theme-colors: (
 
 @import '~bootstrap/scss/bootstrap.scss';
 
+body {
+  background-color: map-get($theme-colors, "secondary");
+}
+
 .App {
+  text-align: left;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   font-weight: 400;
   font-size: 1.1rem;
   font-family: 'Raleway', sans-serif;
-}
-
-* {
-  text-align: left;
 }
 
 h1, h2, h3, h4, h5 {

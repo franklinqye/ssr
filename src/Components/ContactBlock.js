@@ -1,6 +1,5 @@
 import React from 'react';
 import '../custom.scss';
-import Block from './Block.js';
 
 const contactDataTemp = {
   address: "6106 Lakewood Street",

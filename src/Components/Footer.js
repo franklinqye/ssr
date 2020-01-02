@@ -8,9 +8,6 @@ const Footer = props => {
 
   const { title, theme="secondary"  } = props;
 
-  var leftContent;
-  var rightContent;
-
   return (
     <Block theme={theme}>
       <div className="col-12 text-left mb-4">

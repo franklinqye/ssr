@@ -7,7 +7,7 @@ import {
 
 const Button = props => {
 
-  const {title, dest=false, onClick=()=>null, height=false, width=false} = props;
+  const {title, dest=false, onClick=()=>null} = props;
 
   return (<Link 
     className="btn btn-primary px-5 py-3" 
