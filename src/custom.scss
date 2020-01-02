@@ -1,0 +1,101 @@
+// Override default variables before the import
+$body-color: #000;
+
+
+
+$theme-colors: (
+  "primary": #8eb6dc,
+  "secondary": #e9e9ed,
+  "light": #ffffff,
+  "dark": black,
+  "info": #146faf,
+);
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+.App {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-weight: 400;
+  font-size: 1.1rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+* {
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h1 {
+  font-size: 6.5rem;
+}
+
+h2 {
+  font-size: 4.2rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+.btn {
+  font-weight: 600;
+}
+
+
+.navBar {
+  .logo {
+    font-size: 2rem;
+    font-family: 'Cormorant Garamond', serif;
+    &:hover {
+      color: inherit;
+      text-decoration: inherit;
+    }
+  }
+
+  .navLink {
+    &:hover {
+      color: map-get($theme-colors, "info");
+      text-decoration: inherit;
+    }
+  }
+}
+
+
+.primary {
+  color: map-get($theme-colors, "light");
+  background-color: map-get($theme-colors, "primary");
+
+  .btn {
+    color: map-get($theme-colors, "light");
+    background-color: map-get($theme-colors, "info");
+  }
+}
+
+.secondary {
+  color: map-get($theme-colors, "dark");
+  background-color: map-get($theme-colors, "secondary");
+
+  .btn {
+    color: map-get($theme-colors, "light");
+    background-color: map-get($theme-colors, "info");
+  }
+}
+
+.accent {
+  color: map-get($theme-colors, "light");
+  background-color: map-get($theme-colors, "info");
+
+  .btn {
+    color: map-get($theme-colors, "info");
+    background-color: map-get($theme-colors, "light");
+  }
+}
