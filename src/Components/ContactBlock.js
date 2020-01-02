@@ -30,7 +30,7 @@ const ContactBlock = props => {
   }
 
   return (
-    <div className="row">
+    <div className="row contact">
       {
         title && 
         <div className="col-12 mb-3">
@@ -42,7 +42,12 @@ const ContactBlock = props => {
         <br/>{`${contactData.city}, ${contactData.state} ${contactData.zip}`}
       </div>
       <div className={`${orientationName} mb-3`}>
-        {`${contactData.email}`}
+        <a 
+          className="mail" 
+          href={`mailto:${contactData.email}`}
+          >
+            {`${contactData.email}`}
+        </a>
         <br/>{`${contactData.phone}`}
       </div>
     </div>

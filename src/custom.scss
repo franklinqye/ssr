@@ -49,6 +49,12 @@ h4 {
   font-weight: 600;
 }
 
+.contact {
+  .mail {
+    color: map-get($theme-colors, "info");
+  }
+}
+
 
 .navBar {
   .logo {
