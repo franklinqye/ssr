@@ -46,7 +46,7 @@ const dataTeamTemp = {
 
 const keyValueMap = (key, value) => (
   <div key={key} className="row py-5" style={{borderStyle: "solid", borderWidth: "0 0 1px 0"}}>
-    <div className="col-12 col-md-3 mb-5 mb-md-0 text-left">
+    <div className="col-12 col-md-3 text-left">
       <h4>{key}</h4>
     </div>
     <div className="col-12 col-md-2 text-left"></div>

@@ -13,7 +13,7 @@ const Footer = props => {
       <div className="col-12 text-left mb-4">
         <h4 className="text-info">{title}</h4>
       </div>
-      <div className="col-6 text-left mb-5">
+      <div className="col-12 col-md-6 text-left">
         <ContactBlock
           direction="horizontal"
           />

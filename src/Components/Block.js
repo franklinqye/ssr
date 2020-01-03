@@ -3,7 +3,7 @@ import '../custom.scss';
 
 
 const Block = props => (
-  <div className={`row ${props.small ? "py-4" : "py-5"} px-5 ${props.theme} ${props.className}`}>
+  <div className={`block row ${props.small ? "py-4" : ""} px-3 px-md-5 ${props.theme} ${props.className}`}>
     {props.children}
   </div>
 )

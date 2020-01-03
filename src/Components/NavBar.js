@@ -28,7 +28,7 @@ const dataTemp = {
 
 const makeLink = (title, dest, theme) => (
   <div key={title} className="p-2">
-    <NavLink to={dest} className={`navLink ${theme}`} activeClassName="font-weight-bold">{title}</NavLink>
+    <NavLink to={dest} className={`navLink ${theme}`} activeClassName="active">{title}</NavLink>
   </div>
 )
 
@@ -37,7 +37,7 @@ const NavBar = props => {
 
   return (
     <Block className="navBar" theme={theme} small >
-      <div className="col-3 text-left">
+      <div className="col-12 col-md-3 text-center text-md-left">
         <Link to="/" className={`logo ${theme}`}>{title}</Link>
       </div>
       <div className="col-9">

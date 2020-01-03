@@ -22,7 +22,7 @@ const ContactBlock = props => {
       break;
 
     case "horizontal":
-      orientationName = "col-6";
+      orientationName = "col-12 col-md-6";
       break;
     
     default:
@@ -33,7 +33,7 @@ const ContactBlock = props => {
     <div className="row contact">
       {
         title && 
-        <div className="col-12 mb-3">
+        <div className="col-12">
           <h4 className="font-weight-bold">{title}</h4>
         </div>
       }
