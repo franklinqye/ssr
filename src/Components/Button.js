@@ -10,7 +10,7 @@ const Button = props => {
   const {title, dest=false, onClick=()=>null} = props;
 
   return (<Link 
-    className="btn btn-primary px-5 py-3" 
+    className="btn px-5 py-3" 
     to={dest || onClick} 
     role="button">{title}
     </Link>

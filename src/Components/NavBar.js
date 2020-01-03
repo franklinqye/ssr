@@ -40,7 +40,7 @@ const NavBar = props => {
       <div className="col-12 col-md-3 text-center text-md-left">
         <Link to="/" className={`logo ${theme}`}>{title}</Link>
       </div>
-      <div className="col-9">
+      <div className="col-12 col-md-9">
         <div className="d-flex flex-row justify-content-end">
           {
             data && data.dataIDs && 

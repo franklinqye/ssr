@@ -33,7 +33,7 @@ export default function Home() {
       <CallToAction 
         title="Get in Touch"
         buttonTitle="Contact Us"
-        buttonDest="/#"
+        buttonDest="/contact-us"
         theme="secondary"
         />
     </PageTemplate>
