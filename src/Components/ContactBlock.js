@@ -7,7 +7,7 @@ const contactDataTemp = {
   state: "CA",
   zip: "92122",
   email: "mye@ssrsupports.com",
-  phone: "858-752 0602"
+  phone: "(858) 752-0602"
 }
 
 const ContactBlock = props => {
