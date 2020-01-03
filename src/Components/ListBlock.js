@@ -5,7 +5,7 @@ import Button from './Button.js';
 
 
 const dataServiceTemp = {
-  dataIDs: ["assayDev", "clinicalTrials", "drugReg", "drugManu", "medWrite", "postMarket"],
+  dataIDs: ["clinicalTrials", "drugReg", "medWrite", "postMarket","assayDev","drugManu"],
   data: {
     assayDev: {
       key: "Assay development supports",
