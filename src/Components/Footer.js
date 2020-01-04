@@ -11,7 +11,7 @@ const Footer = props => {
   return (
     <Block theme={theme}>
       <div className="col-12 text-left mb-4">
-        <h4 className="text-info">{title}</h4>
+        <h4 className="text-primary font-weight-bold">{title}</h4>
       </div>
       <div className="col-12 col-md-6 text-left">
         <ContactBlock

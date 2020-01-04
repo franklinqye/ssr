@@ -2,8 +2,8 @@ import React from 'react';
 import '../custom.scss';
 
 const contactDataTemp = {
-  address: "6106 Lakewood Street",
-  city: "San Diego",
+  address: "4032 La Jolla Village Dr.",
+  city: "La Jolla",
   state: "CA",
   zip: "92122",
   email: "mye@ssrsupports.com",
