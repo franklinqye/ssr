@@ -5,7 +5,7 @@ const contactDataTemp = {
   address: "4032 La Jolla Village Dr.",
   city: "La Jolla",
   state: "CA",
-  zip: "92122",
+  zip: "92037",
   email: "mye@ssrsupports.com",
   phone: "(858) 752-0602"
 }

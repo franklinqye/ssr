@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 import '../custom.scss';
 
 import { Header, CallToAction, PageTemplate } from '../Components';
@@ -9,6 +10,9 @@ export default function ContactUs() {
     <PageTemplate
       theme="primary"
       >
+      <Helmet>
+        <title>SSR Supports - Contact us</title>
+      </Helmet>
       <Header 
         title="Contact us."
         theme="primary"

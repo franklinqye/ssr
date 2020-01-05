@@ -38,7 +38,9 @@ const NavBar = props => {
   return (
     <Block className="navBar" theme={theme} small >
       <div className="col-12 col-md-3 text-center text-md-left">
-        <Link to="/" className={`logo ${theme}`}>{title}</Link>
+        <h1 style={{fontSize: "inherit"}}>
+          <Link to="/" className={`logo ${theme}`}>{title}</Link>
+        </h1>
       </div>
       <div className="col-12 col-md-9">
         <div className="d-flex flex-row justify-content-end">
