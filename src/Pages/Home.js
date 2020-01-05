@@ -11,7 +11,7 @@ export default function Home() {
       theme="primary"
       >
       <Helmet>
-        <title>SSR Supports - Regulatory Consulting</title>
+        <title>SSR Supports</title>
       </Helmet>
       <Header 
         title="Scientific, Safety & Regulatory Affairs Consulting" 
